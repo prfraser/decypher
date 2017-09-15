@@ -1,0 +1,9 @@
+<h1>About Page</h1>
+
+<% if @password == "supersecret" %>
+	<p>Almost there. Add duper!</p>
+	<% elsif @password == "superdupersecret" %>
+	<%= link_to 'Secret Page', front_secret_path %>
+	<% else %>
+<% end %>
+		
